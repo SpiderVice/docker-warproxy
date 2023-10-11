@@ -1,10 +1,10 @@
-name: buildx-testbranch
+name: buildx
 
 on:
   workflow_dispatch:
   push:
     branches:
-      - 'docker-build'
+      - 'main'
 
 env:
   IMAGE_NAME: ghcr.io/spidervice/docker-warproxy
