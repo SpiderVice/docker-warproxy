@@ -69,7 +69,7 @@ COPY --from=collector /bar/ /
 ENV \
     S6_BEHAVIOUR_IF_STAGE2_FAILS=2 \
     PYTHONUNBUFFERED=1 \
-    TZ=Asia/Seoul \
+    TZ=Europe/London \
     PROXY_ENABLED=true \
     PROXY_PORT=8008
 
